@@ -1,6 +1,10 @@
 # Self-Reflection Claude
 
-![Self-Reflection Claude Demo](https://github.com/user-attachments/assets/5bbc7939-a503-4f20-a307-6be15231d71f)
+![Self-Reflection Claude Demo](
+
+https://github.com/user-attachments/assets/f99cda6f-f804-4fe7-9182-520e80855b9f
+
+)
 
 ## 🚀 Overview
 
