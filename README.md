@@ -23,11 +23,6 @@ Built using the [Model Context Protocol (MCP)](https://www.anthropic.com/news/mo
 
 ## 💻 Installation
 
-### Prerequisites:
-- Python 3.10 or higher
-- Claude Desktop application
-- Basic understanding of the command line
-
 ### Steps:
 
 1. Clone this repository:
