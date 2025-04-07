@@ -21,25 +21,6 @@ Built using the [Model Context Protocol (MCP)](https://www.anthropic.com/news/mo
 - **Conversation State Management**: Track ongoing conversations to enable contextual learning
 - **Testing and Simulation Tools**: Dedicated client for testing the system without Claude Desktop
 
-## 🛠️ Technical Implementation
-
-Self-Reflection Claude consists of:
-
-1. **MCP Server**: Provides tools and resources for autonomous learning
-2. **SQLite Database**: Stores learning scenarios, conversation state, and searchable terms
-3. **Client Application**: For testing and managing the learning database
-4. **Claude Desktop Integration**: For seamless integration with Claude
-
-## 📊 How It Works
-
-### Learning Process:
-
-1. **User Interaction**: User asks a question that Claude might get wrong
-2. **Error Detection**: Claude detects an error (either self-detected or user-corrected)
-3. **Automatic Correction**: Claude provides the correct answer with an explanation
-4. **Background Learning**: The system automatically records the scenario for future reference
-5. **Knowledge Application**: In future conversations, Claude recalls past learnings when faced with similar queries
-
 ## 💻 Installation
 
 ### Prerequisites:
@@ -104,20 +85,6 @@ This opens an interactive CLI that allows you to:
 - View recent learnings
 - Test knowledge recall
 - Clear the learning database
-
-## 🧠 Technical Design
-
-### Database Schema:
-
-- **scenarios**: Stores learning events (questions, incorrect answers, corrections)
-- **conversations**: Tracks ongoing conversation state
-- **keyterms**: Indexes important terms for efficient searching
-
-### Key Components:
-
-- **Context Retrieval**: `get_conversation_context()` provides relevant past learnings
-- **Error Recording**: `detect_and_record_correction()` captures learning events
-- **Knowledge Recall**: `recall_relevant_knowledge()` retrieves applicable learnings
 
 ## 🔜 Future Improvements
 
