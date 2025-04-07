@@ -32,7 +32,7 @@ Built using the [Model Context Protocol (MCP)](https://www.anthropic.com/news/mo
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/self-reflection-claude.git
+git clone https://github.com/william-Dic/Self-Reflection-Claude.git
 cd self-reflection-claude
 ```
 
